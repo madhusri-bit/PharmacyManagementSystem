@@ -1,0 +1,124 @@
+.feedback-page {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #cce0ff, #b3d9ff);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styling */
+h1, h2 {
+  color: #003366;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Feedback Form Styling */
+.feedback-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  resize: vertical;
+  height: 120px;
+}
+
+.feedback-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 10px;
+}
+
+.feedback-form button:hover {
+  background-color: #003366;
+  transform: scale(1.05);
+}
+
+/* Rating Section Styling */
+/* Rating Section Styling */
+.rating-section {
+  display: flex;
+ 
+  margin-bottom: 20px;
+}
+
+.rating-section label {
+  font-size: 18px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.star {
+  padding-top: 50px;
+  font-size: 50px; /* Increased font size for stars */
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-right: 10px;
+}
+
+.star.filled {
+  color: #1ba5ba;
+}
+
+
+/* Feedback List Styling */
+.feedback-list {
+  margin-top: 40px;
+}
+
+.client-feedback {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.client-feedback p {
+  margin: 5px 0;
+}
+
+.client-feedback strong {
+  color: #003366;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input {
+    margin-bottom: 10px;
+  }
+}

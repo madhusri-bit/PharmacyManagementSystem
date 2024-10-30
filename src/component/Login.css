@@ -1,0 +1,140 @@
+body {
+  /* background-image:url(https://cdnvb4.haiper.ai/jobs/66c8323393cf020bce711c4f/66c832ad10bcc1440643a711/3.png) ;  */
+  background-image:url(https://png.pngtree.com/background/20230524/original/pngtree-the-3d-rendering-of-a-group-of-blue-picture-image_2710866.jpg) ; 
+  font-family: 'Arial', sans-serif;
+  background-size: cover;
+  /* margin: 0; */
+  /* padding: 10px; */
+}
+
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-icon {
+  font-size: 50px;
+  color:#76cceb;
+}
+
+h1 {
+  color: #333333;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #76cceb;
+  outline: none;
+}
+
+button.login-button, button.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #76cceb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+button.login-button:hover, button.signup-button:hover {
+  background-color: #5bb9da; /* Slightly darker shade for hover effect */
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #76cceb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link p {
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.form-group.forgot-password-group {
+display: flex;
+align-items: center; /* Align items vertically */
+}
+
+.checkbox-group {
+display: flex;
+align-items: center; /* Align checkbox and label vertically */
+margin-right: auto; /* Push the checkbox group to the left */
+}
+
+.checkbox-group input[type="checkbox"] {
+margin-right: 10px; /* Space between checkbox and label */
+}
+
+.forgot-password-link {
+margin-left: 20px; /* Space between the checkbox group and the link */
+}
+
+@media (max-width: 480px) {
+.login-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+}
+}
+.password-input-container {
+position: relative;
+}
+
+.eye-icon {
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+}

@@ -1,0 +1,131 @@
+/* MedicineProfile.css */
+
+/* Container for the entire profile section */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the user information section */
+.user-info {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center; /* Centering user info */
+}
+
+.user-info p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+.user-info div {
+  margin-bottom: 10px;
+}
+
+.user-info input {
+  width: 100%; /* Keep inputs full width but aligned centrally */
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Styling for the total medicines added */
+.total-medicines {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for each category section (Pain Relief, Cold & Flu, etc.) */
+.medicine-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #eef6ff;
+  border-radius: 8px;
+}
+
+.medicine-section h3 {
+  color: #01090c;
+  margin-bottom: 10px; /* Space between heading and inputs */
+}
+
+/* Flex container for inputs (dropdown, quantity, button) */
+.medicine-section .medicine-inputs {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center;
+  gap: 10px; /* Space between elements */
+}
+
+/* Dropdown and input fields for adding medicine */
+.medicine-section select, 
+.medicine-section input[type="number"] {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 150px; /* Consistent width for input and select */
+}
+
+/* Styling for the Add Medicine button */
+.medicine-section button {
+  padding: 10px 20px;
+  background-color: #76cceb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-end; /* Align the button to the right */
+}
+
+.medicine-section button:hover {
+  background-color: #147293;
+}
+
+/* Styling for the available medicines section */
+.available-medicines {
+  margin-top: 30px;
+}
+
+.available-medicines h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.available-medicines h3 {
+  margin-bottom: 10px;
+  color: #76cceb;
+}
+
+/* Styling for the medicine details in the available medicines section */
+.available-medicines p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.available-medicines .count,
+.available-medicines .medicine-stock {
+  font-weight: bold;
+  color: #333;
+}

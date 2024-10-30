@@ -1,0 +1,38 @@
+/* OrderConfirmation.css */
+
+.confirmation-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-info, .order-summary {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info p, .order-summary p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .order-summary h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .order-summary li {
+    margin-bottom: 8px;
+  }
+  
+  .order-summary p {
+    font-weight: bold;
+  }
+  

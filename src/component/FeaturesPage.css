@@ -1,0 +1,62 @@
+/* Features Page Styling */
+.features-page {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #e6f7ff, #cce0ff);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.features-page h1 {
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px); /* Adjusts for the gap */
+  text-align: center;
+}
+
+.feature-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.feature-item h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .feature-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-item {
+    width: 100%;
+  }
+}

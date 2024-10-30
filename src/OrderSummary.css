@@ -1,0 +1,42 @@
+/* OrderSummary.css */
+.order-summary {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.order-details p,
+.cart-items ul,
+.total-amount {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.cart-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items ul li {
+    padding: 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+    margin-top: 20px;
+}

@@ -1,0 +1,223 @@
+
+.home-container {
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+  background-color: #f4f4f4;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1eaff3, #d7f8ff);
+  /* background-image:url(https://generated-assets.prod.myninja.ai/bca8124c-670f-45e7-b570-bb83926156b5/ad5ab180-f549-4887-b981-d3e20be38a6c_2.jpeg); */
+  background-size:cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+.profile-icon img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff; /* Optional, for styling */
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-buttons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-buttons a:hover {
+  text-decoration: underline;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #1aa3de;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #1aa3de;
+  color: #fff;
+}
+
+.hero-overlay {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  animation: fadeInDown 1s ease-out;
+}
+
+.hero-overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.features-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.features-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #1aa3de;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 220px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.9s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature h3 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.benefits-section {
+  background-color: #1aa3de;
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.benefits-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.benefits-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  width: 220px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.benefit h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.testimonials-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1aa3de;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #555;
+}
+
+.footer {
+  background-color: #2C3E50;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
